@@ -1,0 +1,63 @@
+body, html {
+    height: 100%;
+    line-height: 1.8;
+     margin: 0;
+     
+   overflow-y: hidden;
+}
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("../img/diceimage.jpg");
+    min-height: 100%;
+    filter: grayscale(35%);
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+.footer {
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   height: 6%;
+   color: white;
+   text-align: right;
+   background-color: rgba(0, 90, 90, 0.3);
+    
+}
+#profile{
+   background-color: white;
+    position: absolute;
+   left: 10%;
+   width : 45%;
+   height: 480px;
+   margin-top: 3%;
+   border: 2px solid #888;
+}
+
+.form-inline{
+   background-color: white;
+   font-family: "Times New Roman", Times, serif;
+   font-weight: bold;
+   position: absolute;
+   top: 3%;
+   left: 9%;
+   width : 80%;
+   height: 80%;
+}
+input[type=text], input[type=email], input[type=date] {
+   width: 100%;
+    box-sizing: border-box;
+    margin: 8px 0;
+    padding: 0px 20px; 
+}
+input[type=submit]{
+	background-color: #bfbfbf;
+}
+#profile select { 
+    width: 100%;
+    box-sizing: border-box;
+    margin: 6px 0;
+    padding: 3px 20px 
+}
+

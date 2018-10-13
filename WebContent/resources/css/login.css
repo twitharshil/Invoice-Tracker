@@ -1,0 +1,97 @@
+body, html {
+    height: 100%;
+    line-height: 1.8;
+     margin: 0;
+   overflow-y: hidden;
+}
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("../img/images.jpg");
+    min-height: 100%;
+    filter: grayscale(35%);
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+
+
+.footer {
+   position: fixed;
+    bottom: 0;
+   width: 100%;
+   color: white;
+  text-align: right;
+   background-color: rgba(0, 90, 90, 0.3);
+}
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #795548;
+    color: white;
+    padding: 16px 24px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+ 
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+.container {
+    padding: 7px;
+}
+
+.login {
+    padding: 35px;
+    
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow-y: hidden;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 2px solid #888;
+    width: 40%; 
+}
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+
